@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Demo_Project.Api</RootNamespace>
+    <UserSecretsId>50dc965e-4a6b-48be-a2f0-75d1a6d7d202</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo-Project.Services\Demo-Project.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

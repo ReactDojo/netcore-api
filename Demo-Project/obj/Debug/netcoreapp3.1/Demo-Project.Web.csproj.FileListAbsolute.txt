@@ -1,0 +1,6 @@
+C:\DemoNetCore\Demo-Project\obj\Debug\netcoreapp3.1\Demo-Project.Web.csprojAssemblyReference.cache
+C:\DemoNetCore\Demo-Project\obj\Debug\netcoreapp3.1\Demo-Project.Web.AssemblyInfoInputs.cache
+C:\DemoNetCore\Demo-Project\obj\Debug\netcoreapp3.1\Demo-Project.Web.AssemblyInfo.cs
+C:\DemoNetCore\Demo-Project\obj\Debug\netcoreapp3.1\Demo-Project.Web.csproj.CoreCompileInputs.cache
+C:\DemoNetCore\Demo-Project\obj\Debug\netcoreapp3.1\Demo-Project.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\DemoNetCore\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.MvcApplicationPartsAssemblyInfo.cache

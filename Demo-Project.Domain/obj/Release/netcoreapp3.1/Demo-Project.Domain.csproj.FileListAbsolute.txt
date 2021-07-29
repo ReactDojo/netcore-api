@@ -1,0 +1,8 @@
+C:\DemoNetCore\Demo-Project.Domain\bin\Release\netcoreapp3.1\Demo-Project.Domain.deps.json
+C:\DemoNetCore\Demo-Project.Domain\bin\Release\netcoreapp3.1\Demo-Project.Domain.dll
+C:\DemoNetCore\Demo-Project.Domain\bin\Release\netcoreapp3.1\Demo-Project.Domain.pdb
+C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.AssemblyInfoInputs.cache
+C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.AssemblyInfo.cs
+C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.csproj.CoreCompileInputs.cache
+C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.dll
+C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.pdb

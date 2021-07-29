@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.1\protos/Location.cs \
+obj\Release\netcoreapp3.1\protos/LocationGrpc.cs: protos/location.proto

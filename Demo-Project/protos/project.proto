@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "DemoProject.Web.Protobufs.V1";
+
+package v1;
+
+service Projector {
+  rpc GetAll(EmptyRequest) returns (ProjectsReply) {}
+  rpc GetAllStreamed(EmptyRequest) returns (stream ProjectReply) {}
+  rpc GetById (ProjectSearchRequest) returns (ProjectReply) {}
+  rpc Create (ProjectCreateRequest) returns (ProjectReply) {}
+  rpc Update (ProjectRequest) returns (ProjectReply) {}
+  rpc Delete (ProjectSearchRequest) returns (EmptyReply) {}
+}
+
+message EmptyRequest {
+}
+
+message EmptyReply {
+}
+
+message ProjectSearchRequest {
+    int32 CountryId = 1;
+}
+
+message ProjectCreateRequest {
+    string Name = 1;
+    string Description = 2;
+}
+
+message ProjectRequest {
+    int32 Id = 1;
+    string Name = 2;
+    string Description = 3;
+}
+
+message ProjectReply {
+
+    string Id = 1;
+    string Name = 2;
+    string Description = 3;
+    string title = 4;
+    google.protobuf.Timestamp StartDate = 5;
+    google.protobuf.Timestamp EndDate = 6;
+    google.protobuf.DoubleValue RateOfPay = 7;
+    string Status = 8;
+    string Notes = 9;
+    string Avatar = 10;
+      
+}
+
+message ProjectsReply {
+    repeated ProjectReply Projects = 1;
+}
+

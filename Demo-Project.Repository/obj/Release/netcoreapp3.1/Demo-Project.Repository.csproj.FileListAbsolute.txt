@@ -1,0 +1,15 @@
+C:\DemoNetCore\Demo-Project.Repository\bin\Release\netcoreapp3.1\Demo-Project.Repository.deps.json
+C:\DemoNetCore\Demo-Project.Repository\bin\Release\netcoreapp3.1\Demo-Project.Repository.runtimeconfig.json
+C:\DemoNetCore\Demo-Project.Repository\bin\Release\netcoreapp3.1\Demo-Project.Repository.runtimeconfig.dev.json
+C:\DemoNetCore\Demo-Project.Repository\bin\Release\netcoreapp3.1\Demo-Project.Repository.dll
+C:\DemoNetCore\Demo-Project.Repository\bin\Release\netcoreapp3.1\Demo-Project.Repository.pdb
+C:\DemoNetCore\Demo-Project.Repository\bin\Release\netcoreapp3.1\Demo-Project.Domain.dll
+C:\DemoNetCore\Demo-Project.Repository\bin\Release\netcoreapp3.1\Demo-Project.Domain.pdb
+C:\DemoNetCore\Demo-Project.Repository\obj\Release\netcoreapp3.1\Demo-Project.Repository.csprojAssemblyReference.cache
+C:\DemoNetCore\Demo-Project.Repository\obj\Release\netcoreapp3.1\Demo-Project.Repository.AssemblyInfoInputs.cache
+C:\DemoNetCore\Demo-Project.Repository\obj\Release\netcoreapp3.1\Demo-Project.Repository.AssemblyInfo.cs
+C:\DemoNetCore\Demo-Project.Repository\obj\Release\netcoreapp3.1\Demo-Project.Repository.csproj.CoreCompileInputs.cache
+C:\DemoNetCore\Demo-Project.Repository\obj\Release\netcoreapp3.1\Demo-Project.Repository.csproj.CopyComplete
+C:\DemoNetCore\Demo-Project.Repository\obj\Release\netcoreapp3.1\Demo-Project.Repository.dll
+C:\DemoNetCore\Demo-Project.Repository\obj\Release\netcoreapp3.1\Demo-Project.Repository.pdb
+C:\DemoNetCore\Demo-Project.Repository\obj\Release\netcoreapp3.1\Demo-Project.Repository.genruntimeconfig.cache
