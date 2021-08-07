@@ -6,3 +6,4 @@ C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain
 C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.csproj.CoreCompileInputs.cache
 C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.dll
 C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.pdb
+C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.csprojAssemblyReference.cache
