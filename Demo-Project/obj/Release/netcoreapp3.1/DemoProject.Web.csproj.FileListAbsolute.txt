@@ -1,5 +1,6 @@
 C:\DemoNetCore\Demo-Project\bin\Release\netcoreapp3.1\appsettings.Development.json
 C:\DemoNetCore\Demo-Project\bin\Release\netcoreapp3.1\appsettings.json
+C:\DemoNetCore\Demo-Project\bin\Release\netcoreapp3.1\Data\Location_History.json
 C:\DemoNetCore\Demo-Project\bin\Release\netcoreapp3.1\DemoProject.Web.exe
 C:\DemoNetCore\Demo-Project\bin\Release\netcoreapp3.1\Services\LocationGrpcService.cs
 C:\DemoNetCore\Demo-Project\bin\Release\netcoreapp3.1\DemoProject.Web.deps.json

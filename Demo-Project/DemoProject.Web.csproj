@@ -3,18 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>73921560-e65b-4536-8cd8-bd2f402388c3</UserSecretsId>
-	  <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	  <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
     <AssemblyName>DemoProject.Web</AssemblyName>
     <RootNamespace>DemoProject.Web</RootNamespace>
+    <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Services\GreeterService.cs" />
-  </ItemGroup>
-	
-  <ItemGroup>
-    <Content Remove="Data\Location_History.json" />
   </ItemGroup>
    
   <ItemGroup>
@@ -49,10 +46,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Demo-Project.Domain\Demo-Project.Domain.csproj" />
     <ProjectReference Include="..\Demo-Project.Services\Demo-Project.Services.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Data\" />
   </ItemGroup>
 
   <ItemGroup>
