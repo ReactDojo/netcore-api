@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>73921560-e65b-4536-8cd8-bd2f402388c3</UserSecretsId>
 	  <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
-    <DockerfileContext>.</DockerfileContext>
+    <DockerfileContext>../</DockerfileContext>
     <AssemblyName>DemoProject.Web</AssemblyName>
     <RootNamespace>DemoProject.Web</RootNamespace>
     <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
