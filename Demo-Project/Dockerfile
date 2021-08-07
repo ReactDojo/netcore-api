@@ -10,9 +10,9 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
 COPY ["DemoProject.Web.csproj", "."]
-COPY ["../Demo-Project.Services/Demo-Project.Services.csproj", "/Demo-Project.Services/"]
-COPY ["../Demo-Project.Repository/Demo-Project.Repository.csproj", "/Demo-Project.Repository/"]
-COPY ["../Demo-Project.Domain/Demo-Project.Domain.csproj", "/Demo-Project.Domain/"]
+COPY ["/Demo-Project.Services/Demo-Project.Services.csproj", "../Demo-Project.Services/"]
+COPY ["/Demo-Project.Repository/Demo-Project.Repository.csproj", "../Demo-Project.Repository/"]
+COPY ["/Demo-Project.Domain/Demo-Project.Domain.csproj", "../Demo-Project.Domain/"]
 RUN dotnet restore "DemoProject.Web.csproj"
 COPY . .
 WORKDIR "/src/"
