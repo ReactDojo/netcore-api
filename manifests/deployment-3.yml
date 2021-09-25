@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "kubernetesonenode-0b68"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "kubernetesonenode-0b68"
+  template:
+    metadata:
+      labels:
+        app: "kubernetesonenode-0b68"
+    spec:
+      containers:
+        - name: "kubernetesonenode-0b68"
+          image: "containerbustrips.azurecr.io/kubernetesonenode"
+          ports:
+          - containerPort: 80
