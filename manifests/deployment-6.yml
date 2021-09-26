@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "kubernetescluster-bca6"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "kubernetescluster-bca6"
+  template:
+    metadata:
+      labels:
+        app: "kubernetescluster-bca6"
+    spec:
+      containers:
+        - name: "kubernetescluster-bca6"
+          image: "containeradmin.azurecr.io/kubernetescluster"
+          ports:
+          - containerPort: 80
