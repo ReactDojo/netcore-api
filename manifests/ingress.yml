@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+    name: "kubernetesonenode-9f31"
+    labels:
+        app: "kubernetesonenode-9f31"
+    annotations:
+        kubernetes.io/ingress.class: addon-http-application-routing
+spec:
+    rules:
+        - host: kubernetes-one-nodea898-kubernetesonenode-9f31.393fdd69d1824549a7bf.canadacentral.aksapp.io
+          http:
+            paths:
+            - path: /
+              backend:
+                serviceName: "kubernetesonenode-9f31"
+                servicePort: 80

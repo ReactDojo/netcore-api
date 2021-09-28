@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "grpckube-978b"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "grpckube-978b"
+  template:
+    metadata:
+      labels:
+        app: "grpckube-978b"
+    spec:
+      containers:
+        - name: "grpckube-978b"
+          image: "netapidemo.azurecr.io/grpckube"
+          ports:
+          - containerPort: 80
