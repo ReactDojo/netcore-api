@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+    name: "kubeclustersecondlast-ead8"
+    labels:
+        app: "kubeclustersecondlast-ead8"
+    annotations:
+        kubernetes.io/ingress.class: addon-http-application-routing
+spec:
+    rules:
+        - host: kubecluster-secondlastb768-kubeclustersecondlast-ead8.4d6dbff77b454156b8f2.eastus.aksapp.io
+          http:
+            paths:
+            - path: /
+              backend:
+                serviceName: "kubeclustersecondlast-ead8"
+                servicePort: 80
