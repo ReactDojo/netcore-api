@@ -28,8 +28,8 @@ namespace Demo_Project
                         // options.ListenLocalhost(5000, o => o.Protocols = 
                         //     HttpProtocols.Http2);
                         options.ListenAnyIP(80, o => o.Protocols =
-                            HttpProtocols.Http2);
-                            //HttpProtocols.Http1);
+                            //HttpProtocols.Http2);
+                            HttpProtocols.Http1);
                     });
                     webBuilder.UseStartup<Startup>();
                 });
