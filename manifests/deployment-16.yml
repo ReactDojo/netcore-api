@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "kubeclustersecondlast-98e3"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "kubeclustersecondlast-98e3"
+  template:
+    metadata:
+      labels:
+        app: "kubeclustersecondlast-98e3"
+    spec:
+      containers:
+        - name: "kubeclustersecondlast-98e3"
+          image: "containerthirdattempt.azurecr.io/kubeclustersecondlast"
+          ports:
+          - containerPort: 80
