@@ -29,6 +29,7 @@ namespace Demo_Project
                         //     HttpProtocols.Http2);
                         options.ListenAnyIP(80, o => o.Protocols =
                             HttpProtocols.Http2);
+                            //HttpProtocols.Http1);
                     });
                     webBuilder.UseStartup<Startup>();
                 });
