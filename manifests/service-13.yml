@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: "kubeclustersecondlast-53cb"
+    labels:
+        app: "kubeclustersecondlast-53cb"
+spec:
+    type: ClusterIP
+    ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+      name: http
+    selector:
+        app: "kubeclustersecondlast-53cb"
