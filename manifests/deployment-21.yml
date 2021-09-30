@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "kubeclusterfifth-ecf0"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "kubeclusterfifth-ecf0"
+  template:
+    metadata:
+      labels:
+        app: "kubeclusterfifth-ecf0"
+    spec:
+      containers:
+        - name: "kubeclusterfifth-ecf0"
+          image: "upgradedkubeversion.azurecr.io/kubeclusterfifth"
+          ports:
+          - containerPort: 80
