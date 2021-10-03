@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+    name: "kubernetesfourth-f39b"
+    labels:
+        app: "kubernetesfourth-f39b"
+    annotations:
+        kubernetes.io/ingress.class: addon-http-application-routing
+spec:
+    rules:
+        - host: kubernetesfourtha96e-kubernetesfourth-f39b.8da41d97eba94af891fb.eastus.aksapp.io
+          http:
+            paths:
+            - path: /
+              backend:
+                serviceName: "kubernetesfourth-f39b"
+                servicePort: 5001

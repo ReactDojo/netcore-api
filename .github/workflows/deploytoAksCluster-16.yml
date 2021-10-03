@@ -1,0 +1,51 @@
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    
+    - uses: azure/docker-login@v1
+      with:
+        login-server: containerthirdattempt.azurecr.io
+        username: ${{ secrets.acr_containerthirdattempt_username }}
+        password: ${{ secrets.acr_containerthirdattempt_password }}
+    
+    - name: Build and push image to ACR
+      id: build-image
+      run: |
+        docker build "$GITHUB_WORKSPACE/" -f  "Dockerfile" -t containerthirdattempt.azurecr.io/kubeclustersecondlast:${{ github.sha }} --label dockerfile-path=Dockerfile
+        docker push containerthirdattempt.azurecr.io/kubeclustersecondlast:${{ github.sha }}
+    
+    - uses: azure/k8s-set-context@v1
+      with:
+         kubeconfig: ${{ secrets.aks_kubeclustersecondlast_kubeConfig }}
+      id: login
+    
+    - name: Create namespace
+      run: |
+        namespacePresent=`kubectl get namespace | grep kubecluster-secondlasta4b0 | wc -l`
+        if [ $namespacePresent -eq 0 ]
+        then
+            echo `kubectl create namespace kubecluster-secondlasta4b0`
+        fi
+
+    - uses: azure/k8s-create-secret@v1
+      with:
+        namespace: kubecluster-secondlasta4b0
+        container-registry-url: containerthirdattempt.azurecr.io
+        container-registry-username: ${{ secrets.acr_containerthirdattempt_username }}
+        container-registry-password: ${{ secrets.acr_containerthirdattempt_password }}
+        secret-name: kubeclustersdockerauth
+       
+    - uses: azure/k8s-deploy@v1.2
+      with:
+        namespace: kubecluster-secondlasta4b0
+        manifests: |
+          manifests/deployment-16.yml
+          manifests/service-16.yml
+          manifests/ingress-14.yml
+        images: |
+          containerthirdattempt.azurecr.io/kubeclustersecondlast:${{ github.sha }}
+        imagepullsecrets: |
+          kubeclustersdockerauth
