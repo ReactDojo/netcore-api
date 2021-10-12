@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZNG53zuBxe4xnImA2bARg1pJ6NpKjrBWzIXBJWQuMRhoIOfO1CJBhKrVddMWXBpYIhDPBUi6TZAH5AJcHeMmqw==",
+  "dgSpecHash": "aE/eZJqaPT2AndQA8pTvY2xCMsInobvDd5aMLSbsog1N5oINMI6FlXpoQzjt8YzNQ0oflETG4w0a0SteCgk/CA==",
   "success": true,
-  "projectFilePath": "C:\\DemoNetCore\\Demo-Project.Api\\Demo-Project.Api.csproj",
+  "projectFilePath": "C:\\netcore-api\\netcore-api\\Demo-Project.Api\\Demo-Project.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nadim\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\nadim\\.nuget\\packages\\google.protobuf\\3.11.2\\google.protobuf.3.11.2.nupkg.sha512",

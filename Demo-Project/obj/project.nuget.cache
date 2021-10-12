@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aNtyJYzql1+eC4rqrYK+DXysqXosuRMv/auqKz622CKp9D3LBAclje1pru2wXf+0LY4/8rdL/E4AB3d1Y9qWhQ==",
+  "dgSpecHash": "TACK23L7Ds4wu3lTekF9VYEDG1zAMJ01HOxEn4U6s+Np0LiOUhpt9At+z6zEHT8Lz3jgZp2vH5+0zfiWofRQbw==",
   "success": true,
-  "projectFilePath": "C:\\DemoNetCore\\Demo-Project\\DemoProject.Web.csproj",
+  "projectFilePath": "C:\\netcore-api\\netcore-api\\Demo-Project\\DemoProject.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nadim\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\nadim\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

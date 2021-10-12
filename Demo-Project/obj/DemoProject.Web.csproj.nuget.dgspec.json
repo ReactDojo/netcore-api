@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DemoNetCore\\Demo-Project\\DemoProject.Web.csproj": {}
+    "C:\\netcore-api\\netcore-api\\Demo-Project\\DemoProject.Web.csproj": {}
   },
   "projects": {
-    "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj": {
+    "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj",
+        "projectUniqueName": "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj",
         "projectName": "Demo-Project.Domain",
-        "projectPath": "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj",
+        "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj",
         "packagesPath": "C:\\Users\\nadim\\.nuget\\packages\\",
-        "outputPath": "C:\\DemoNetCore\\Demo-Project.Domain\\obj\\",
+        "outputPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\DemoNetCore\\Demo-Project.Repository\\Demo-Project.Repository.csproj": {
+    "C:\\netcore-api\\netcore-api\\Demo-Project.Repository\\Demo-Project.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DemoNetCore\\Demo-Project.Repository\\Demo-Project.Repository.csproj",
+        "projectUniqueName": "C:\\netcore-api\\netcore-api\\Demo-Project.Repository\\Demo-Project.Repository.csproj",
         "projectName": "Demo-Project.Repository",
-        "projectPath": "C:\\DemoNetCore\\Demo-Project.Repository\\Demo-Project.Repository.csproj",
+        "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Repository\\Demo-Project.Repository.csproj",
         "packagesPath": "C:\\Users\\nadim\\.nuget\\packages\\",
-        "outputPath": "C:\\DemoNetCore\\Demo-Project.Repository\\obj\\",
+        "outputPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -100,8 +100,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj": {
-                "projectPath": "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj"
+              "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj": {
+                "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj"
               }
             }
           }
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\DemoNetCore\\Demo-Project.Services\\Demo-Project.Services.csproj": {
+    "C:\\netcore-api\\netcore-api\\Demo-Project.Services\\Demo-Project.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DemoNetCore\\Demo-Project.Services\\Demo-Project.Services.csproj",
+        "projectUniqueName": "C:\\netcore-api\\netcore-api\\Demo-Project.Services\\Demo-Project.Services.csproj",
         "projectName": "Demo-Project.Services",
-        "projectPath": "C:\\DemoNetCore\\Demo-Project.Services\\Demo-Project.Services.csproj",
+        "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Services\\Demo-Project.Services.csproj",
         "packagesPath": "C:\\Users\\nadim\\.nuget\\packages\\",
-        "outputPath": "C:\\DemoNetCore\\Demo-Project.Services\\obj\\",
+        "outputPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -198,11 +198,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj": {
-                "projectPath": "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj"
+              "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj": {
+                "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj"
               },
-              "C:\\DemoNetCore\\Demo-Project.Repository\\Demo-Project.Repository.csproj": {
-                "projectPath": "C:\\DemoNetCore\\Demo-Project.Repository\\Demo-Project.Repository.csproj"
+              "C:\\netcore-api\\netcore-api\\Demo-Project.Repository\\Demo-Project.Repository.csproj": {
+                "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Repository\\Demo-Project.Repository.csproj"
               }
             }
           }
@@ -241,14 +241,14 @@
         }
       }
     },
-    "C:\\DemoNetCore\\Demo-Project\\DemoProject.Web.csproj": {
+    "C:\\netcore-api\\netcore-api\\Demo-Project\\DemoProject.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DemoNetCore\\Demo-Project\\DemoProject.Web.csproj",
+        "projectUniqueName": "C:\\netcore-api\\netcore-api\\Demo-Project\\DemoProject.Web.csproj",
         "projectName": "DemoProject.Web",
-        "projectPath": "C:\\DemoNetCore\\Demo-Project\\DemoProject.Web.csproj",
+        "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project\\DemoProject.Web.csproj",
         "packagesPath": "C:\\Users\\nadim\\.nuget\\packages\\",
-        "outputPath": "C:\\DemoNetCore\\Demo-Project\\obj\\",
+        "outputPath": "C:\\netcore-api\\netcore-api\\Demo-Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -271,11 +271,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj": {
-                "projectPath": "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj"
+              "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj": {
+                "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj"
               },
-              "C:\\DemoNetCore\\Demo-Project.Services\\Demo-Project.Services.csproj": {
-                "projectPath": "C:\\DemoNetCore\\Demo-Project.Services\\Demo-Project.Services.csproj"
+              "C:\\netcore-api\\netcore-api\\Demo-Project.Services\\Demo-Project.Services.csproj": {
+                "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Services\\Demo-Project.Services.csproj"
               }
             }
           }

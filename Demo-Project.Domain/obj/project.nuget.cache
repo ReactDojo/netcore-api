@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/mmBpvTRxQStsJEIk4i8XLjrEUo0oCXa7VfjvL9Mf2AYxwW/mJvrPwNQKFdAi7aQ26QGmkYJA7N5r/7zxbV0aQ==",
+  "dgSpecHash": "ZTUq9XkM8idV0yRmT8vcic8OZeVHRSYyhK9IUdgRZRcA0si5/jgGoPip7fsyWH6sSkzz697pSwTgmeagXZhAZA==",
   "success": true,
-  "projectFilePath": "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj",
+  "projectFilePath": "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nadim\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

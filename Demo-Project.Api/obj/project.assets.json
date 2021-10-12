@@ -5723,11 +5723,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DemoNetCore\\Demo-Project.Api\\Demo-Project.Api.csproj",
+      "projectUniqueName": "C:\\netcore-api\\netcore-api\\Demo-Project.Api\\Demo-Project.Api.csproj",
       "projectName": "Demo-Project.Api",
-      "projectPath": "C:\\DemoNetCore\\Demo-Project.Api\\Demo-Project.Api.csproj",
+      "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Api\\Demo-Project.Api.csproj",
       "packagesPath": "C:\\Users\\nadim\\.nuget\\packages\\",
-      "outputPath": "C:\\DemoNetCore\\Demo-Project.Api\\obj\\",
+      "outputPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5750,8 +5750,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\DemoNetCore\\Demo-Project.Services\\Demo-Project.Services.csproj": {
-              "projectPath": "C:\\DemoNetCore\\Demo-Project.Services\\Demo-Project.Services.csproj"
+            "C:\\netcore-api\\netcore-api\\Demo-Project.Services\\Demo-Project.Services.csproj": {
+              "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Services\\Demo-Project.Services.csproj"
             }
           }
         }

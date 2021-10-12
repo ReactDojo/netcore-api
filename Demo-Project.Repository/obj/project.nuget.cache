@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7VbnpA3zEo5MdY+o6Jto9tYPOfwGUiFSYW9Gp4Nhy6eeSQxRTYr39PvQo7Bw3SsiVWplb6aWknRL04Divy24iw==",
+  "dgSpecHash": "EJWFyTYlI0uPAiN7e1KgQSnyKRITbnEvMgkkbfJR31oLe6rvTMYcsK9x+g+4RabMVCkkpek4XwH002tAft0NEg==",
   "success": true,
-  "projectFilePath": "C:\\DemoNetCore\\Demo-Project.Repository\\Demo-Project.Repository.csproj",
+  "projectFilePath": "C:\\netcore-api\\netcore-api\\Demo-Project.Repository\\Demo-Project.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nadim\\.nuget\\packages\\google.protobuf\\3.11.2\\google.protobuf.3.11.2.nupkg.sha512",
     "C:\\Users\\nadim\\.nuget\\packages\\grpc.aspnetcore\\2.27.0\\grpc.aspnetcore.2.27.0.nupkg.sha512",

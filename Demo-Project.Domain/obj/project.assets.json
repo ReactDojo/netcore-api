@@ -56,11 +56,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj",
+      "projectUniqueName": "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj",
       "projectName": "Demo-Project.Domain",
-      "projectPath": "C:\\DemoNetCore\\Demo-Project.Domain\\Demo-Project.Domain.csproj",
+      "projectPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\Demo-Project.Domain.csproj",
       "packagesPath": "C:\\Users\\nadim\\.nuget\\packages\\",
-      "outputPath": "C:\\DemoNetCore\\Demo-Project.Domain\\obj\\",
+      "outputPath": "C:\\netcore-api\\netcore-api\\Demo-Project.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
