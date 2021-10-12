@@ -13,18 +13,38 @@
   <ItemGroup>
     <Compile Remove="Services\GreeterService.cs" />
   </ItemGroup>
-   
-  <ItemGroup>
 
-	  <Protobuf Include="protos\location.proto" GrpcServices="Both">
-		  <Link>protos\location.proto</Link>
-	  </Protobuf>
+	<ItemGroup>
 
-	  <Protobuf Include="protos\project.proto" GrpcServices="Both">
-		   <Link>protos\project.proto</Link>
-	  </Protobuf>
-	 
-  </ItemGroup>
+		<Protobuf Include="protos\location.proto" GrpcServices="Both">
+			<Link>protos\location.proto</Link>
+		</Protobuf>
+
+		<Protobuf Include="protos\project.proto" GrpcServices="Both">
+			<Link>protos\project.proto</Link>
+		</Protobuf>
+
+		<Protobuf Include="protos\trip.proto" GrpcServices="Both">
+			<Link>protos\trip.proto</Link>
+		</Protobuf>
+
+		<Protobuf Include="protos\customer.proto" GrpcServices="Both">
+			<Link>protos\customer.proto</Link>
+		</Protobuf>
+
+		<Protobuf Include="protos\destination.proto" GrpcServices="Both">
+			<Link>protos\destination.proto</Link>
+		</Protobuf>
+
+		<Protobuf Include="protos\fund.proto" GrpcServices="Both">
+			<Link>protos\fund.proto</Link>
+		</Protobuf>
+
+		<Protobuf Include="protos\grade.proto" GrpcServices="Both">
+			<Link>protos\grade.proto</Link>
+		</Protobuf>
+
+	</ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />

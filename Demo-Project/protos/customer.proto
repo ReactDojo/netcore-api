@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "DemoProject.Web.Protobufs.V1";
+
+package v1;
+
+service CustomerData {
+	rpc GetAllCustomers (GetAllCustomerRequest) returns (stream GetAllCustomerResponse);
+}
+
+message GetAllCustomerRequest {
+
+}
+
+message GetAllCustomerResponse {
+	string Customer = 1;
+	string CustName = 2;
+}
