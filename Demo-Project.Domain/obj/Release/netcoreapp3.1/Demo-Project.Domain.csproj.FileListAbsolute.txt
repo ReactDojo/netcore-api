@@ -7,3 +7,12 @@ C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain
 C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.dll
 C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.pdb
 C:\DemoNetCore\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.csprojAssemblyReference.cache
+C:\netcore-api\netcore-api\Demo-Project.Domain\bin\Release\netcoreapp3.1\Demo-Project.Domain.deps.json
+C:\netcore-api\netcore-api\Demo-Project.Domain\bin\Release\netcoreapp3.1\Demo-Project.Domain.dll
+C:\netcore-api\netcore-api\Demo-Project.Domain\bin\Release\netcoreapp3.1\Demo-Project.Domain.pdb
+C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.csprojAssemblyReference.cache
+C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.AssemblyInfoInputs.cache
+C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.AssemblyInfo.cs
+C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.csproj.CoreCompileInputs.cache
+C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.dll
+C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Release\netcoreapp3.1\Demo-Project.Domain.pdb
