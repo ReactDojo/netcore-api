@@ -49,6 +49,11 @@ namespace Demo_Project
             services.AddScoped<IProjectService, ProjectService>();
             //services.AddScoped<IProjectTaskService, ProjectTaskService>();
             services.AddScoped<ILocationService, LocationService>();
+            services.AddScoped<ITripService, TripService>();
+            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IDestinationService, DestinationService>();
+            services.AddScoped<IFundService, FundService>();
+            services.AddScoped<IGradeService, GradeService>();
             //services.AddScoped<IProjectService, ProjectService>();
             //services.AddScoped<ICountryRepository, EFCountryRepository>();
 
@@ -70,10 +75,15 @@ namespace Demo_Project
                 //endpoints.MapGrpcService<GreeterService>();
                 endpoints.MapGrpcService<ProjectGrpService>();
                 endpoints.MapGrpcService<LocationGrpService>();
+                endpoints.MapGrpcService<TripGrpService>();
+                endpoints.MapGrpcService<CustomerGrpcService>();
+                endpoints.MapGrpcService<DestinationGrpcService>();
+                endpoints.MapGrpcService<FundGrpcService>();
+                endpoints.MapGrpcService<GradeGrpcService>();
 
                 //if (env.IsDevelopment())
                 //{
-                    endpoints.MapGrpcReflectionService();
+                endpoints.MapGrpcReflectionService();
                 //}
                 endpoints.MapGet("/", async context =>
                 {
