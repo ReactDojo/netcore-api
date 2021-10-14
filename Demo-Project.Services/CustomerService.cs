@@ -30,9 +30,17 @@ namespace Demo_Project.Services
             {
                 var config = new MapperConfiguration(cfg => cfg.CreateMap<Customer, CustomerEntity>());
                 var mapper = config.CreateMapper();
+                List<CustomerEntity> customerEntity = null;
 
-                var customerRepo = await _CustomerRepository.GetAsync();
-                var customerEntity = mapper.Map<List<CustomerEntity>>(customerRepo);
+                try 
+                { 
+                    var customerRepo = await _CustomerRepository.GetAsync();
+                    customerEntity = mapper.Map<List<CustomerEntity>>(customerRepo);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogInformation("Exception for Calling Repository" + ex.Message);
+                }
 
                 return customerEntity;
             } 
