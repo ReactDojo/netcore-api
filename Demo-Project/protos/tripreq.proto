@@ -1,4 +1,4 @@
-syntax = "proto3";
+﻿syntax = "proto3";
 
 option csharp_namespace = "DemoProject.Web.Protobufs.V1";
 
@@ -8,16 +8,16 @@ import "google/protobuf/timestamp.proto";
 import "google/protobuf/struct.proto";
 import "google/protobuf/wrappers.proto";
 
-service TripData {
-  rpc GetTrips (GetTripsRequest) returns (stream GetTripsResponse);
-  rpc GetAllTripsUnary (GetAllTripsRequest) returns (GetAllTripsResponse);
+service TripsReqData {
+  rpc GetTripsReq (GetTripsReqRequest) returns (stream GetTripsReqesponse);
+  rpc GetAllTripsReqReqUnary (GetAllTripsReqRequest) returns (GetAllTripsReqResponse);
 }
 
-message GetTripsRequest {
+message GetTripsReqRequest {
   int32 dataLimit = 1;
 }
 
-message Trip {
+message TripReq {
 	int32 TripNum = 1;
   string Prefix = 2;
   google.protobuf.Int32Value Billrate = 3;
@@ -99,7 +99,7 @@ message Trip {
   string Userdate2 = 79;
   string SsmaTimeStamp = 80;
 }
-message GetTripsResponse {
+message GetTripsReqResponse {
   int32 TripNum = 1;
   string Prefix = 2;
   google.protobuf.Int32Value Billrate = 3;
@@ -182,9 +182,9 @@ message GetTripsResponse {
   string SsmaTimeStamp = 80;
 }
 
-message GetAllTripsRequest {
+message GetAllTripsReqRequest {
 }
 
-message GetAllTripsResponse {
+message GetAllTripsReqResponse {
   repeated Trip Trips = 5;
 }

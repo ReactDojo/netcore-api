@@ -1,4 +1,5 @@
 ﻿using Demo_Project.Repository.Database;
+using Demo_Project.Domain.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

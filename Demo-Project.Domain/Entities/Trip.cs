@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace Demo_Project.Repository.Database
+namespace Demo_Project.Domain.Entities
 {
     public partial class TripEntity
     {

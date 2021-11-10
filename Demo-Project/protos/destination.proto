@@ -5,14 +5,16 @@ option csharp_namespace = "DemoProject.Web.Protobufs.V1";
 package v1;
 
 service DestinationData {
-	rpc GetAllDestinations (GetAllDestinationRequest) returns (stream GetAllDestinationResponse);
+	rpc GetAllDestinationsUnary (GetAllDestinationRequest) returns (GetAllDestinationResponse);
 }
 
 message GetAllDestinationRequest {
-
 }
 
 message GetAllDestinationResponse {
-	int32 Destination = 1;
+	repeated Destination Destinations = 5;
+}
+message Destination {
+	string Destination = 1;
 	string DestDesc = 2;
 }

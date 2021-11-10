@@ -5,14 +5,17 @@ option csharp_namespace = "DemoProject.Web.Protobufs.V1";
 package v1;
 
 service GradeData {
-	rpc GetAllGrades (GetAllGradeRequest) returns (stream GetAllGradeResponse);
+	rpc GetAllGradesUnary (GetAllGradeRequest) returns (GetAllGradeResponse);
 }
 
 message GetAllGradeRequest {
 
 }
 
-message GetAllGradeResponse {
+message Grade {
 	string Grade = 1;
 	string Description = 2;
+}
+message GetAllGradeResponse {
+	repeated Grade Grades = 5;
 }

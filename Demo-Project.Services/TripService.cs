@@ -68,6 +68,7 @@ namespace Demo_Project.Services
 
         public async Task<string> UpdateAsync(Trip trip)
         {
+
             var result = await _TripsRepository.UpdateAsync(trip);
 
             if (result > 0)

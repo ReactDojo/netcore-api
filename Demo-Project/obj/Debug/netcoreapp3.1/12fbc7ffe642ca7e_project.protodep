@@ -1,4 +1,4 @@
-obj\Debug\netcoreapp3.1\Protos/Project.cs \
-obj\Debug\netcoreapp3.1\Protos/ProjectGrpc.cs: C:/Users/nadim/.nuget/packages/grpc.tools/2.38.1/build/native/include/google/protobuf/wrappers.proto\
+obj\Debug\netcoreapp3.1\protos/Project.cs \
+obj\Debug\netcoreapp3.1\protos/ProjectGrpc.cs: C:/Users/nadim/.nuget/packages/grpc.tools/2.38.1/build/native/include/google/protobuf/wrappers.proto\
  C:/Users/nadim/.nuget/packages/grpc.tools/2.38.1/build/native/include/google/protobuf/timestamp.proto\
- Protos/project.proto
+ protos/project.proto

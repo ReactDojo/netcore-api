@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TACK23L7Ds4wu3lTekF9VYEDG1zAMJ01HOxEn4U6s+Np0LiOUhpt9At+z6zEHT8Lz3jgZp2vH5+0zfiWofRQbw==",
+  "dgSpecHash": "2AAea4/wakYoWY4/qv9X8R5T5cqcUpa7oWNk+Hw7TIE/cgzuZRFztGdwxvYVOKPe6zKdbLGcWQgtGm/SeCI9iA==",
   "success": true,
   "projectFilePath": "C:\\netcore-api\\netcore-api\\Demo-Project\\DemoProject.Web.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\nadim\\.nuget\\packages\\grpc.aspnetcore.server\\2.38.0\\grpc.aspnetcore.server.2.38.0.nupkg.sha512",
     "C:\\Users\\nadim\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.38.0\\grpc.aspnetcore.server.clientfactory.2.38.0.nupkg.sha512",
     "C:\\Users\\nadim\\.nuget\\packages\\grpc.aspnetcore.server.reflection\\2.38.0\\grpc.aspnetcore.server.reflection.2.38.0.nupkg.sha512",
+    "C:\\Users\\nadim\\.nuget\\packages\\grpc.aspnetcore.web\\2.40.0\\grpc.aspnetcore.web.2.40.0.nupkg.sha512",
     "C:\\Users\\nadim\\.nuget\\packages\\grpc.core.api\\2.37.0\\grpc.core.api.2.37.0.nupkg.sha512",
     "C:\\Users\\nadim\\.nuget\\packages\\grpc.net.client\\2.38.0\\grpc.net.client.2.38.0.nupkg.sha512",
     "C:\\Users\\nadim\\.nuget\\packages\\grpc.net.clientfactory\\2.38.0\\grpc.net.clientfactory.2.38.0.nupkg.sha512",

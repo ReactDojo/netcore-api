@@ -1,2 +1,2 @@
-obj\Debug\netcoreapp3.1\Protos/Location.cs \
-obj\Debug\netcoreapp3.1\Protos/LocationGrpc.cs: Protos/location.proto
+obj\Debug\netcoreapp3.1\protos/Location.cs \
+obj\Debug\netcoreapp3.1\protos/LocationGrpc.cs: protos/location.proto

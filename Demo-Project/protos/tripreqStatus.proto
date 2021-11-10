@@ -1,0 +1,22 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "DemoProject.Web.Protobufs.V1";
+
+package v1;
+
+service TripreqStatus {
+	rpc GetAllTripsReqStatusUnary (GetAllTripsReqStatusRequest) returns (GetAllTripsReqStatusResponse);
+}
+
+message GetAllTripsReqStatusRequest {
+
+}
+
+message GetAllTripsReqStatusResponse {
+	repeated Customer TripsReqStatus = 5;
+}
+
+message TripsReqStatus {
+	string Status = 1;
+	string Description = 2;
+}

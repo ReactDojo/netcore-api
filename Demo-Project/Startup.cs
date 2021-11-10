@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Reflection;
@@ -20,7 +21,7 @@ namespace Demo_Project
             services.AddGrpc();
             //need reflection to discover from the grpcui
             services.AddGrpcReflection();
-            
+
             //var serviceProvider = services.BuildServiceProvider();
 
             //services.AddGrpc(options =>
@@ -28,17 +29,21 @@ namespace Demo_Project
             //    options.EnableMessageValidation();
             //    options.Interceptors.Add<LoggerInterceptor>();
             //});
+            //services.AddGrpcWeb(o => o.GrpcWebEnabled = true);
 
-            //services.AddCors(o =>
-            //{
-            //    o.AddPolicy("MyPolicy", builder =>
-            //    {
-            //        builder.AllowAnyOrigin();
-            //        builder.AllowAnyMethod();
-            //        builder.AllowAnyHeader();
-            //        builder.WithExposedHeaders("Grpc-Status", "Grpc-Message");
-            //    });
-            //});
+
+            services.AddCors(o =>
+            {
+                o.AddPolicy("MyPolicy", builder =>
+                {
+                    builder.WithOrigins("127.0.0.1:4200", "YourCustomDomain");
+                    builder.AllowAnyOrigin();
+                    builder.AllowAnyMethod();
+                    builder.AllowAnyHeader();
+                    builder.WithExposedHeaders("Grpc-Status", "Grpc-Message");
+                    
+                });
+            });
 
             //services.AddValidator<CountryCreateRequestValidator>();
 
@@ -69,6 +74,8 @@ namespace Demo_Project
 
 
             app.UseRouting();
+            app.UseCors();
+            app.UseGrpcWeb();
 
             app.UseEndpoints(endpoints =>
             {

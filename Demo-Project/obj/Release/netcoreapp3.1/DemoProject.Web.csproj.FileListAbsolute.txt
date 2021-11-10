@@ -80,6 +80,11 @@ C:\DemoNetCore\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.csproj.Cop
 C:\DemoNetCore\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.dll
 C:\DemoNetCore\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.pdb
 C:\DemoNetCore\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.genruntimeconfig.cache
+C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.csprojAssemblyReference.cache
+C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.AssemblyInfoInputs.cache
+C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.AssemblyInfo.cs
+C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.csproj.CoreCompileInputs.cache
+C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\appsettings.Development.json
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\appsettings.json
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\DemoProject.Web.exe
@@ -95,6 +100,7 @@ C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Google.Protobu
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Grpc.AspNetCore.Server.dll
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Grpc.AspNetCore.Server.ClientFactory.dll
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Grpc.AspNetCore.Server.Reflection.dll
+C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Grpc.AspNetCore.Web.dll
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Grpc.Core.Api.dll
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Grpc.Net.Client.dll
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Grpc.Net.ClientFactory.dll
@@ -148,11 +154,6 @@ C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Demo-Project.S
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Demo-Project.Domain.pdb
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Demo-Project.Services.pdb
 C:\netcore-api\netcore-api\Demo-Project\bin\Release\netcoreapp3.1\Demo-Project.Repository.pdb
-C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.csprojAssemblyReference.cache
-C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.AssemblyInfoInputs.cache
-C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.AssemblyInfo.cs
-C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.csproj.CoreCompileInputs.cache
-C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\DemoProject.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\staticwebassets\DemoProject.Web.StaticWebAssets.Manifest.cache
 C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\staticwebassets\DemoProject.Web.StaticWebAssets.xml
 C:\netcore-api\netcore-api\Demo-Project\obj\Release\netcoreapp3.1\scopedcss\bundle\DemoProject.Web.styles.css

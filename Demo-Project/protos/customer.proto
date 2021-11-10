@@ -5,7 +5,7 @@ option csharp_namespace = "DemoProject.Web.Protobufs.V1";
 package v1;
 
 service CustomerData {
-	rpc GetAllCustomers (GetAllCustomerRequest) returns (stream GetAllCustomerResponse);
+	rpc GetAllCustomersUnary (GetAllCustomerRequest) returns (GetAllCustomerResponse);
 }
 
 message GetAllCustomerRequest {
@@ -13,6 +13,12 @@ message GetAllCustomerRequest {
 }
 
 message GetAllCustomerResponse {
-	string Customer = 1;
+	repeated Customer customers = 5;
+	string CustomerID = 1;
+	string CustName = 2;
+}
+
+message Customer {
+	string CustomerID = 1;
 	string CustName = 2;
 }

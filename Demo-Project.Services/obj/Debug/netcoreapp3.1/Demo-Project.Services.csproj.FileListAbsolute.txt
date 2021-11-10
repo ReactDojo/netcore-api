@@ -12,3 +12,17 @@ C:\DemoNetCore\Demo-Project.Services\obj\Debug\netcoreapp3.1\Demo-Project.Servic
 C:\DemoNetCore\Demo-Project.Services\obj\Debug\netcoreapp3.1\Demo-Project.Services.csproj.CopyComplete
 C:\DemoNetCore\Demo-Project.Services\obj\Debug\netcoreapp3.1\Demo-Project.Services.dll
 C:\DemoNetCore\Demo-Project.Services\obj\Debug\netcoreapp3.1\Demo-Project.Services.pdb
+C:\netcore-api\netcore-api\Demo-Project.Services\bin\Debug\netcoreapp3.1\Demo-Project.Services.deps.json
+C:\netcore-api\netcore-api\Demo-Project.Services\bin\Debug\netcoreapp3.1\Demo-Project.Services.dll
+C:\netcore-api\netcore-api\Demo-Project.Services\bin\Debug\netcoreapp3.1\Demo-Project.Services.pdb
+C:\netcore-api\netcore-api\Demo-Project.Services\bin\Debug\netcoreapp3.1\Demo-Project.Domain.dll
+C:\netcore-api\netcore-api\Demo-Project.Services\bin\Debug\netcoreapp3.1\Demo-Project.Repository.dll
+C:\netcore-api\netcore-api\Demo-Project.Services\bin\Debug\netcoreapp3.1\Demo-Project.Domain.pdb
+C:\netcore-api\netcore-api\Demo-Project.Services\bin\Debug\netcoreapp3.1\Demo-Project.Repository.pdb
+C:\netcore-api\netcore-api\Demo-Project.Services\obj\Debug\netcoreapp3.1\Demo-Project.Services.csprojAssemblyReference.cache
+C:\netcore-api\netcore-api\Demo-Project.Services\obj\Debug\netcoreapp3.1\Demo-Project.Services.AssemblyInfoInputs.cache
+C:\netcore-api\netcore-api\Demo-Project.Services\obj\Debug\netcoreapp3.1\Demo-Project.Services.AssemblyInfo.cs
+C:\netcore-api\netcore-api\Demo-Project.Services\obj\Debug\netcoreapp3.1\Demo-Project.Services.csproj.CoreCompileInputs.cache
+C:\netcore-api\netcore-api\Demo-Project.Services\obj\Debug\netcoreapp3.1\Demo-Project.Services.csproj.CopyComplete
+C:\netcore-api\netcore-api\Demo-Project.Services\obj\Debug\netcoreapp3.1\Demo-Project.Services.dll
+C:\netcore-api\netcore-api\Demo-Project.Services\obj\Debug\netcoreapp3.1\Demo-Project.Services.pdb

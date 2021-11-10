@@ -37,6 +37,7 @@
           "Demo-Project.Services": "1.0.0",
           "Grpc.AspNetCore": "2.38.0",
           "Grpc.AspNetCore.Server.Reflection": "2.38.0",
+          "Grpc.AspNetCore.Web": "2.40.0",
           "Grpc.Tools": "2.38.1",
           "Microsoft.EntityFrameworkCore.Design": "5.0.7",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.13",
@@ -414,6 +415,17 @@
         },
         "compile": {
           "lib/netcoreapp3.0/Grpc.AspNetCore.Server.Reflection.dll": {}
+        }
+      },
+      "Grpc.AspNetCore.Web/2.40.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Grpc.AspNetCore.Web.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.40.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Grpc.AspNetCore.Web.dll": {}
         }
       },
       "Grpc.Core.Api/2.37.0": {
@@ -3204,6 +3216,13 @@
       "sha512": "sha512-15rjPeRpJw2PZJPis3lTjgDzkSAW4OR3PCdbiEDuUbKxQLX2yNtD+JOrl7PwokWLVtsASfnRvfWVRdTtW9skDA==",
       "path": "grpc.aspnetcore.server.reflection/2.38.0",
       "hashPath": "grpc.aspnetcore.server.reflection.2.38.0.nupkg.sha512"
+    },
+    "Grpc.AspNetCore.Web/2.40.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BihgaLFm4WS3s/em7g7DfuiZolk1vT7NAxJ2soX4G1/cd4zLCttKWpPYi3OPbN9wr+2vDGCgd/ZlFtjgdg8ubw==",
+      "path": "grpc.aspnetcore.web/2.40.0",
+      "hashPath": "grpc.aspnetcore.web.2.40.0.nupkg.sha512"
     },
     "Grpc.Core.Api/2.37.0": {
       "type": "package",

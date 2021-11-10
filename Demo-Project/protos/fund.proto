@@ -5,14 +5,16 @@ option csharp_namespace = "DemoProject.Web.Protobufs.V1";
 package v1;
 
 service FundData {
-	rpc GetAllFunds (GetAllFundRequest) returns (stream GetAllFundResponse);
+	rpc GetAllFundsUnary (GetAllFundRequest) returns (GetAllFundResponse);
 }
 
 message GetAllFundRequest {
 
 }
-
-message GetAllFundResponse {
+message Fund {
 	string Fund = 1;
 	string FundDesc = 2;
+}
+message GetAllFundResponse {
+	repeated Fund Funds = 5;
 }
