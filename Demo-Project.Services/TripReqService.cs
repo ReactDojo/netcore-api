@@ -54,16 +54,22 @@ namespace Demo_Project.Services
             return taskTripEntity;
         }
 
-        public async void AddAsync(TripsreqEntity tripsreqEntity)
+        public async Task<TripsreqEntity> AddAsync(TripsreqEntity tripsreqEntity)
         {
+            //
             var config = new MapperConfiguration(cfg => cfg.CreateMap<TripsreqEntity, Tripsreq>());
             var mapper = config.CreateMapper();
+
+            var configFrom = new MapperConfiguration(cfg => cfg.CreateMap<Tripsreq, TripsreqEntity>());
+            var mapperfrom = config.CreateMapper();
 
             var taskTripDatabase = mapper.Map<Tripsreq>(tripsreqEntity);
             var tripRepo = await _TripsRepository.AddAsync(taskTripDatabase);
 
+            var tripEnt = mapperfrom.Map<TripsreqEntity>(tripRepo);
+
             //give a success response for a return, maybe an http 200
-            return;
+            return tripEnt;
         }
 
         public async Task<string> UpdateAsync(TripsreqEntity tripsreqEntity)

@@ -61,6 +61,13 @@ namespace DemoProject.Web.Protobufs.V1 {
         __Marshaller_v1_GetAllTripsReqRequest,
         __Marshaller_v1_GetAllTripsReqResponse);
 
+    static readonly grpc::Method<global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest, global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse> __Method_Create = new grpc::Method<global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest, global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Create",
+        __Marshaller_v1_GetTripsReqRequest,
+        __Marshaller_v1_GetAllTripsReqResponse);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -76,13 +83,12 @@ namespace DemoProject.Web.Protobufs.V1 {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      /// <summary>
-      ///rpc Create(TripReq)
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
       public virtual global::System.Threading.Tasks.Task<global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse> GetAllTripsReqReqUnary(global::DemoProject.Web.Protobufs.V1.GetAllTripsReqRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      public virtual global::System.Threading.Tasks.Task<global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse> Create(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -120,49 +126,37 @@ namespace DemoProject.Web.Protobufs.V1 {
       {
         return CallInvoker.AsyncServerStreamingCall(__Method_GetTripsReq, null, options, request);
       }
-      /// <summary>
-      ///rpc Create(TripReq)
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
       public virtual global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse GetAllTripsReqReqUnary(global::DemoProject.Web.Protobufs.V1.GetAllTripsReqRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetAllTripsReqReqUnary(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      /// <summary>
-      ///rpc Create(TripReq)
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
       public virtual global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse GetAllTripsReqReqUnary(global::DemoProject.Web.Protobufs.V1.GetAllTripsReqRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetAllTripsReqReqUnary, null, options, request);
       }
-      /// <summary>
-      ///rpc Create(TripReq)
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
       public virtual grpc::AsyncUnaryCall<global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse> GetAllTripsReqReqUnaryAsync(global::DemoProject.Web.Protobufs.V1.GetAllTripsReqRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetAllTripsReqReqUnaryAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      /// <summary>
-      ///rpc Create(TripReq)
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
       public virtual grpc::AsyncUnaryCall<global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse> GetAllTripsReqReqUnaryAsync(global::DemoProject.Web.Protobufs.V1.GetAllTripsReqRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetAllTripsReqReqUnary, null, options, request);
+      }
+      public virtual global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse Create(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Create(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse Create(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Create, null, options, request);
+      }
+      public virtual grpc::AsyncUnaryCall<global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse> CreateAsync(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncUnaryCall<global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse> CreateAsync(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Create, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override TripsReqDataClient NewInstance(ClientBaseConfiguration configuration)
@@ -177,7 +171,8 @@ namespace DemoProject.Web.Protobufs.V1 {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_GetTripsReq, serviceImpl.GetTripsReq)
-          .AddMethod(__Method_GetAllTripsReqReqUnary, serviceImpl.GetAllTripsReqReqUnary).Build();
+          .AddMethod(__Method_GetAllTripsReqReqUnary, serviceImpl.GetAllTripsReqReqUnary)
+          .AddMethod(__Method_Create, serviceImpl.Create).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
@@ -188,6 +183,7 @@ namespace DemoProject.Web.Protobufs.V1 {
     {
       serviceBinder.AddMethod(__Method_GetTripsReq, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest, global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse>(serviceImpl.GetTripsReq));
       serviceBinder.AddMethod(__Method_GetAllTripsReqReqUnary, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::DemoProject.Web.Protobufs.V1.GetAllTripsReqRequest, global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse>(serviceImpl.GetAllTripsReqReqUnary));
+      serviceBinder.AddMethod(__Method_Create, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest, global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse>(serviceImpl.Create));
     }
 
   }

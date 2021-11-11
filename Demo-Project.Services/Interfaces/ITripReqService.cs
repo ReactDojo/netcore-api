@@ -7,7 +7,7 @@ namespace Demo_Project.Services
 {
     public  interface ITripReqService
     {
-        void AddAsync(TripsreqEntity tripEntity);
+        Task<TripsreqEntity> AddAsync(TripsreqEntity tripEntity);
         Task<List<TripsreqEntity>> GetAsync();
         Task<TripsreqEntity> GetByIdAsync(int TripsreqId);
         Task<string> UpdateAsync(TripsreqEntity trip);
