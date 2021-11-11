@@ -9,7 +9,7 @@ import "google/protobuf/struct.proto";
 import "google/protobuf/wrappers.proto";
 
 service TripsReqData {
-  rpc GetTripsReq (GetTripsReqRequest) returns (GetTripsReqResponse);
+  rpc GetTripsReq (GetTripsReqRequest) returns (stream GetTripsReqResponse);
   rpc GetAllTripsReqReqUnary (GetAllTripsReqRequest) returns (GetAllTripsReqResponse);
   //rpc Create(TripReq)
 }

@@ -48,7 +48,7 @@ namespace DemoProject.Web.Protobufs.V1 {
     static readonly grpc::Marshaller<global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse> __Marshaller_v1_GetAllTripsReqResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse.Parser));
 
     static readonly grpc::Method<global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest, global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse> __Method_GetTripsReq = new grpc::Method<global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest, global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse>(
-        grpc::MethodType.Unary,
+        grpc::MethodType.ServerStreaming,
         __ServiceName,
         "GetTripsReq",
         __Marshaller_v1_GetTripsReqRequest,
@@ -71,7 +71,7 @@ namespace DemoProject.Web.Protobufs.V1 {
     [grpc::BindServiceMethod(typeof(TripsReqData), "BindService")]
     public abstract partial class TripsReqDataBase
     {
-      public virtual global::System.Threading.Tasks.Task<global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse> GetTripsReq(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task GetTripsReq(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::IServerStreamWriter<global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse> responseStream, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -112,21 +112,13 @@ namespace DemoProject.Web.Protobufs.V1 {
       {
       }
 
-      public virtual global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse GetTripsReq(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncServerStreamingCall<global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse> GetTripsReq(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetTripsReq(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-      public virtual global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse GetTripsReq(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncServerStreamingCall<global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse> GetTripsReq(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_GetTripsReq, null, options, request);
-      }
-      public virtual grpc::AsyncUnaryCall<global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse> GetTripsReqAsync(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return GetTripsReqAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      public virtual grpc::AsyncUnaryCall<global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse> GetTripsReqAsync(global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_GetTripsReq, null, options, request);
+        return CallInvoker.AsyncServerStreamingCall(__Method_GetTripsReq, null, options, request);
       }
       /// <summary>
       ///rpc Create(TripReq)
@@ -194,7 +186,7 @@ namespace DemoProject.Web.Protobufs.V1 {
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     public static void BindService(grpc::ServiceBinderBase serviceBinder, TripsReqDataBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_GetTripsReq, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest, global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse>(serviceImpl.GetTripsReq));
+      serviceBinder.AddMethod(__Method_GetTripsReq, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::DemoProject.Web.Protobufs.V1.GetTripsReqRequest, global::DemoProject.Web.Protobufs.V1.GetTripsReqResponse>(serviceImpl.GetTripsReq));
       serviceBinder.AddMethod(__Method_GetAllTripsReqReqUnary, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::DemoProject.Web.Protobufs.V1.GetAllTripsReqRequest, global::DemoProject.Web.Protobufs.V1.GetAllTripsReqResponse>(serviceImpl.GetAllTripsReqReqUnary));
     }
 
