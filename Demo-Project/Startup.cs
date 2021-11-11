@@ -83,6 +83,7 @@ namespace Demo_Project
                 endpoints.MapGrpcService<ProjectGrpService>();
                 endpoints.MapGrpcService<LocationGrpService>();
                 endpoints.MapGrpcService<TripGrpService>();
+               // endpoints.MapGrpcService<TripsRequestGrpcService>();
                 endpoints.MapGrpcService<CustomerGrpcService>();
                 endpoints.MapGrpcService<DestinationGrpcService>();
                 endpoints.MapGrpcService<FundGrpcService>();

@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1\protos/Fund.cs \
+obj\Debug\netcoreapp3.1\protos/FundGrpc.cs: protos/fund.proto

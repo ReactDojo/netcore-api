@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1\protos/Tripreqstatus.cs \
+obj\Debug\netcoreapp3.1\protos/TripreqstatusGrpc.cs: protos/tripreqstatus.proto

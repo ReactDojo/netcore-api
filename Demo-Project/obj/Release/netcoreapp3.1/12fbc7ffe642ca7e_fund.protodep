@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.1\protos/Fund.cs \
+obj\Release\netcoreapp3.1\protos/FundGrpc.cs: protos/fund.proto

@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.1\protos/Destination.cs \
+obj\Release\netcoreapp3.1\protos/DestinationGrpc.cs: protos/destination.proto

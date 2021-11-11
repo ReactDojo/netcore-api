@@ -9,8 +9,9 @@ import "google/protobuf/struct.proto";
 import "google/protobuf/wrappers.proto";
 
 service TripsReqData {
-  rpc GetTripsReq (GetTripsReqRequest) returns (stream GetTripsReqesponse);
+  rpc GetTripsReq (GetTripsReqRequest) returns (GetTripsReqResponse);
   rpc GetAllTripsReqReqUnary (GetAllTripsReqRequest) returns (GetAllTripsReqResponse);
+  //rpc Create(TripReq)
 }
 
 message GetTripsReqRequest {
@@ -186,5 +187,5 @@ message GetAllTripsReqRequest {
 }
 
 message GetAllTripsReqResponse {
-  repeated Trip Trips = 5;
+  repeated TripReq Trips = 5;
 }

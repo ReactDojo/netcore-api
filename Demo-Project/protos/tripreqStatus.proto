@@ -13,7 +13,7 @@ message GetAllTripsReqStatusRequest {
 }
 
 message GetAllTripsReqStatusResponse {
-	repeated Customer TripsReqStatus = 5;
+	repeated TripsReqStatus TripsReqStatus = 5;
 }
 
 message TripsReqStatus {

@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.1\protos/Customer.cs \
+obj\Release\netcoreapp3.1\protos/CustomerGrpc.cs: protos/customer.proto

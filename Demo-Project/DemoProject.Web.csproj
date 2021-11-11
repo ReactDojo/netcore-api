@@ -48,8 +48,8 @@
 			<Link>protos\tripreq.proto</Link>
 		</Protobuf>
 		
-		<Protobuf Include="protos\tripreq.proto" GrpcServices="Both">
-			<Link>protos\tripreq.proto</Link>
+		<Protobuf Include="protos\tripreqstatus.proto" GrpcServices="Both">
+			<Link>protos\tripreqstatus.proto</Link>
 		</Protobuf>
 
 	</ItemGroup>

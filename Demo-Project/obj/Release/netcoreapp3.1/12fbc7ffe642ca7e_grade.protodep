@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.1\protos/Grade.cs \
+obj\Release\netcoreapp3.1\protos/GradeGrpc.cs: protos/grade.proto

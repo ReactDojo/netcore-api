@@ -83,8 +83,6 @@ C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.
 C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.AssemblyInfo.cs
 C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.csproj.CoreCompileInputs.cache
 C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.dll
-C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.pdb
 C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\appsettings.json
 C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\DemoProject.Web.exe
@@ -100,6 +98,7 @@ C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\Google.Protobuf.
 C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Server.dll
 C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Server.ClientFactory.dll
 C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Server.Reflection.dll
+C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Web.dll
 C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
 C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
 C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\Grpc.Net.ClientFactory.dll
@@ -158,5 +157,6 @@ C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\staticwebassets\
 C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\scopedcss\bundle\DemoProject.Web.styles.css
 C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.RazorTargetAssemblyInfo.cache
 C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.csproj.CopyComplete
+C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.dll
+C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.pdb
 C:\netcore-api\netcore-api\Demo-Project\obj\Debug\netcoreapp3.1\DemoProject.Web.genruntimeconfig.cache
-C:\netcore-api\netcore-api\Demo-Project\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Web.dll

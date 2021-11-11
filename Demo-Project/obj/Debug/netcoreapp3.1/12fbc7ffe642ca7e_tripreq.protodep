@@ -1,0 +1,5 @@
+obj\Debug\netcoreapp3.1\protos/Tripreq.cs \
+obj\Debug\netcoreapp3.1\protos/TripreqGrpc.cs: C:/Users/nadim/.nuget/packages/grpc.tools/2.38.1/build/native/include/google/protobuf/timestamp.proto\
+ C:/Users/nadim/.nuget/packages/grpc.tools/2.38.1/build/native/include/google/protobuf/struct.proto\
+ C:/Users/nadim/.nuget/packages/grpc.tools/2.38.1/build/native/include/google/protobuf/wrappers.proto\
+ protos/tripreq.proto

@@ -10,9 +10,9 @@ C:\DemoNetCore\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.p
 C:\netcore-api\netcore-api\Demo-Project.Domain\bin\Debug\netcoreapp3.1\Demo-Project.Domain.deps.json
 C:\netcore-api\netcore-api\Demo-Project.Domain\bin\Debug\netcoreapp3.1\Demo-Project.Domain.dll
 C:\netcore-api\netcore-api\Demo-Project.Domain\bin\Debug\netcoreapp3.1\Demo-Project.Domain.pdb
-C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.csprojAssemblyReference.cache
 C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.AssemblyInfoInputs.cache
 C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.AssemblyInfo.cs
 C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.csproj.CoreCompileInputs.cache
 C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.dll
 C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.pdb
+C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.csprojAssemblyReference.cache
