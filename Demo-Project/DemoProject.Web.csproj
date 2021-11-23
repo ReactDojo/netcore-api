@@ -47,6 +47,10 @@
 		<Protobuf Include="protos\tripreq.proto" GrpcServices="Both">
 			<Link>protos\tripreq.proto</Link>
 		</Protobuf>
+
+		<Protobuf Include="protos\tripreqrequired.proto" GrpcServices="Both">
+			<Link>protos\tripreqrequired.proto</Link>
+		</Protobuf>
 		
 		<Protobuf Include="protos\tripreqstatus.proto" GrpcServices="Both">
 			<Link>protos\tripreqstatus.proto</Link>

@@ -15,4 +15,3 @@ C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Proj
 C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.csproj.CoreCompileInputs.cache
 C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.dll
 C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.pdb
-C:\netcore-api\netcore-api\Demo-Project.Domain\obj\Debug\netcoreapp3.1\Demo-Project.Domain.csprojAssemblyReference.cache

@@ -1,0 +1,191 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "DemoProject.Web.Protobufs.V1";
+
+package v1;
+
+//import "google/protobuf/timestamp.proto";
+//import "google/protobuf/struct.proto";
+import "google/protobuf/wrappers.proto";
+
+service TripReqRequiredData {
+  rpc GetTripsReqRequired (GetTripsReqRequiredRequest) returns (stream GetTripsReqRequiredResponse);
+  rpc GetAllTripsReqRequiredReqUnary (GetAllTripsReqRequiredRequest) returns (GetAllTripsReqRequiredResponse);
+  rpc Create(GetTripsReqRequiredRequest) returns (GetAllTripsReqRequiredResponse);
+}
+
+message GetTripsReqRequiredRequest {
+  int32 dataLimit = 1;
+}
+
+message TripReqRequired {
+	int32 TripNum = 1;
+  string Prefix = 2;
+  google.protobuf.Int32Value Billrate = 3;
+  string Reqdate = 4;
+  string Fund = 5;
+  string Customer = 6;
+  string Location = 7;
+  string Billcust  = 8;
+  string Contact = 9;
+  int32 Destination = 10;
+  string Depdate = 11;
+  string Deptime = 12;
+  string Retdate = 13;
+  string Rettime = 14;
+  string Arrivetime = 15;
+  string Leavetime = 16;
+  google.protobuf.FloatValue Estmile = 17;
+  google.protobuf.FloatValue Esttime = 18;
+  int32 Numstudents = 19;
+  int32 Numadults = 20;
+  google.protobuf.Int32Value Numhand = 21;
+  string Purpose = 22;
+  string Destspec = 23;
+  bool Outoftown = 24;
+  string Schedule = 25;
+  string Schedule2 = 26;
+  string Schedule3 = 27;
+  string Schedule4 = 28;
+  string Schedule5 = 29;
+  bool Calcnumdrivers = 30;
+  string Type = 31;
+  int32 Numtype = 32;
+  string Capacity = 33;
+  string Addltype = 34;
+  int32 Numaddl = 35;
+  bool Bill = 36;
+  string Custspec = 37;
+  bool Assigned = 38;
+  bool Billed = 39;
+  string Billdate = 40;
+  bool Canceled = 41;
+  string Candate = 42;
+  int32 Numveh = 43;
+  bool Dropret = 44;
+  string Tripcom = 45;
+  bool Autoassign = 46;
+  string Po = 47;
+  string Tripcat = 48;
+  string Inttripnum = 49;
+  int32 Tripreqnum = 50;
+  float Amount1 = 51;
+  float Amount2 = 52;
+  float Amount3 = 53;
+  float Amount4 = 54;
+  float Amount5 = 55;
+  string Amounttxt1 = 56;
+  string Amounttxt2 = 57;
+  string Amounttxt3 = 58;
+  string Amounttxt4 = 59;
+  string Amounttxt5 = 60;
+  string Grade = 61;
+  bool Split = 62;
+  string InvoiceFormat = 63;
+  string InvoiceComment1 = 64;
+  bool Multidest = 65;
+  bool Shuttle = 66;
+  string TicketFormat = 67;
+  int32 Numchar = 68;
+  string RequestorEmail = 69;
+  string AdministratorEmail = 70;
+  string ApproverEmail = 71;
+  string DateEntered = 72;
+  string UserEntered = 73;
+  string DateLastchanged = 74;
+  string UserLastchanged = 75;
+  string User1 = 76;
+  string User2 = 77;
+  string Userdate1 = 78;
+  string Userdate2 = 79;
+  string SsmaTimeStamp = 80;
+}
+message GetTripsReqRequiredResponse {
+  int32 TripNum = 1;
+  string Prefix = 2;
+  google.protobuf.Int32Value Billrate = 3;
+  string Reqdate = 4;
+  string Fund = 5;
+  string Customer = 6;
+  string Location = 7;
+  string Billcust  = 8;
+  string Contact = 9;
+  int32 Destination = 10;
+  string Depdate = 11;
+  string Deptime = 12;
+  string Retdate = 13;
+  string Rettime = 14;
+  string Arrivetime = 15;
+  string Leavetime = 16;
+  google.protobuf.FloatValue Estmile = 17;
+  google.protobuf.FloatValue Esttime = 18;
+  int32 Numstudents = 19;
+  int32 Numadults = 20;
+  google.protobuf.Int32Value Numhand = 21;
+  string Purpose = 22;
+  string Destspec = 23;
+  bool Outoftown = 24;
+  string Schedule = 25;
+  string Schedule2 = 26;
+  string Schedule3 = 27;
+  string Schedule4 = 28;
+  string Schedule5 = 29;
+  bool Calcnumdrivers = 30;
+  string Type = 31;
+  int32 Numtype = 32;
+  string Capacity = 33;
+  string Addltype = 34;
+  int32 Numaddl = 35;
+  bool Bill = 36;
+  string Custspec = 37;
+  bool Assigned = 38;
+  bool Billed = 39;
+  string Billdate = 40;
+  bool Canceled = 41;
+  string Candate = 42;
+  int32 Numveh = 43;
+  bool Dropret = 44;
+  string Tripcom = 45;
+  bool Autoassign = 46;
+  string Po = 47;
+  string Tripcat = 48;
+  string Inttripnum = 49;
+  int32 Tripreqnum = 50;
+  float Amount1 = 51;
+  float Amount2 = 52;
+  float Amount3 = 53;
+  float Amount4 = 54;
+  float Amount5 = 55;
+  string Amounttxt1 = 56;
+  string Amounttxt2 = 57;
+  string Amounttxt3 = 58;
+  string Amounttxt4 = 59;
+  string Amounttxt5 = 60;
+  string Grade = 61;
+  bool Split = 62;
+  string InvoiceFormat = 63;
+  string InvoiceComment1 = 64;
+  bool Multidest = 65;
+  bool Shuttle = 66;
+  string TicketFormat = 67;
+  int32 Numchar = 68;
+  string RequestorEmail = 69;
+  string AdministratorEmail = 70;
+  string ApproverEmail = 71;
+  string DateEntered = 72;
+  string UserEntered = 73;
+  string DateLastchanged = 74;
+  string UserLastchanged = 75;
+  string User1 = 76;
+  string User2 = 77;
+  string Userdate1 = 78;
+  string Userdate2 = 79;
+  string SsmaTimeStamp = 80;
+}
+
+message GetAllTripsReqRequiredRequest {
+}
+
+message GetAllTripsReqRequiredResponse {
+  repeated TripReqRequired Trips = 5;
+}
