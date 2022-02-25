@@ -1,0 +1,29 @@
+environment:
+
+  - ASPNETCORE_ENVIRONMENT=${env}
+
+  - IsDockerDeployment=${isDockerDeployment}
+
+  - ASPNETCORE_URLS=https://+:443;http://+:80
+
+  - ASPNETCORE_HTTPS_PORT=443
+
+  - KestrelPath=${appCertificate}
+
+  - KestrelPassword=${appCertificatepassword}
+
+  - ASPNETCORE_Kestrel__Certificates__Default__Password=doaminnamepassword
+
+  - ASPNETCORE_Kestrel__Certificates__Default__Path=/root/.aspnet/https/_.domainname.com_private_key.pfx
+
+ports:
+
+  - "80:80"
+
+  - "443:443"
+
+volumes:
+
+  - /home/thingtrax/Downloads/DockerComposelinux/DockerCompose/config:/root/.aspnet/https:ro
+
+  - /home/thingtrax/Downloads/DockerComposelinux/DockerCompose/config:/root/.microsoft/usersecrets:ro
