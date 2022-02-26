@@ -127,7 +127,11 @@ Client streaming RPCs where the client writes a sequence of messages and sends t
 Bidirectional streaming RPCs where both sides send a sequence of messages using a read-write stream. The two streams operate independently, so clients and servers can read and write in whatever order they like: for example, the server could wait to receive all the client messages before writing its responses, or it could alternately read a message then write a message, or some other combination of reads and writes. The order of messages in each stream is preserved.
 
 USE POWERSHELL note add mapping/reflection
+
 add mapping/reflection
+
 grpcurl localhost:5001 describe
+
 grpcurl localhost:5001 describe greet.HelloRequest
+
 grpcurl -d '{ \"name\": \"World\" }' localhost:5001 greet.Greeter/SayHello
