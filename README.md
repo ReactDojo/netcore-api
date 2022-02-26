@@ -1,10 +1,14 @@
+//GENERATE .PFX
+dotnet dev-certs https --clean
+
+dotnet dev-certs https --trust -ep $env:USERPROFILE\.aspnet\https\aspnetapp.pfx -p password1234
+
+//LOCATION: "C:\Users\Justin\.aspnet\https\aspnetcore.pfx"
 
 docker build -t image-name /path/to/repo OR git/repo/url
 
-
-//GENERATE SSL CERTIFICATE
+//GENERATE SSL CERTIFICATE (.key) //old
 //pass: password1234
-
 winpty openssl genrsa -des3 -out myCA.key 2048
 
 //TO RUN LOCALLY >> Demo-Project.Web/appsettings.json
