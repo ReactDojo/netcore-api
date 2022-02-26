@@ -1,7 +1,7 @@
 //GENERATE .PFX
 dotnet dev-certs https --clean
 
-dotnet dev-certs https --trust -ep $env:USERPROFILE\.aspnet\https\aspnetapp.pfx -p password1234
+dotnet dev-certs https --trust -ep $env:USERPROFILE\.aspnet\https\aspnetcore.pfx -p password1234
 
 //LOCATION: "C:\Users\Justin\.aspnet\https\aspnetcore.pfx"
 
