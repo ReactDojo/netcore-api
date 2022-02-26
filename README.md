@@ -1,6 +1,17 @@
+
+docker build -t image-name /path/to/repo OR git/repo/url
+
+
 //GENERATE SSL CERTIFICATE
 //pass: password1234
+
 winpty openssl genrsa -des3 -out myCA.key 2048
+
+//TO RUN LOCALLY >> Demo-Project.Web/appsettings.json
+"Path": "c:\\aspnetcore.pfx",
+
+//TO RUN IN A CONTAINER
+"Path": "aspnetcore.pfx",
 
 Docker create image from repo
 docker build -t image-name /path/to/repo
@@ -101,3 +112,22 @@ Rolling updates allow deployment updates to take place with zero downtime by inc
 If a deployment is exposed publicly, the service will load balance the traffic only to available pods during the update. 
 - kubectl describe pods // to view all pods and current image version running on pod
 - kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2 // update to v2
+
+
+GRPC:
+a client application can directly call a method on a server application on a different machine as if it were a local object, making it easier for you to create distributed applications and services
+ gRPC uses Protocol Buffers, Google’s mature open source mechanism for serializing structured data
+The first step when working with protocol buffers is to define the structure for the data you want to serialize in a proto file: this is an ordinary text file with a .proto extension. 
+Protocol buffer data is structured as messages, where each message is a small logical record of information containing a series of name-value pairs called fields. Here’s a simple example:
+Then, once you’ve specified your data structures, you use the protocol buffer compiler protoc to generate data access classes in your preferred language(s) from your proto definition
+4 kinds of service methods:
+Unary RPCs where the client sends a single request to the server and gets a single response back, just like a normal function call.
+Server streaming RPCs where the client sends a request to the server and gets a stream to read a sequence of messages back. The client reads from the returned stream until there are no more messages. gRPC guarantees message ordering within an individual RPC call.
+Client streaming RPCs where the client writes a sequence of messages and sends them to the server, again using a provided stream. Once the client has finished writing the messages, it waits for the server to read them and return its response. Again gRPC guarantees message ordering within an individual RPC call.
+Bidirectional streaming RPCs where both sides send a sequence of messages using a read-write stream. The two streams operate independently, so clients and servers can read and write in whatever order they like: for example, the server could wait to receive all the client messages before writing its responses, or it could alternately read a message then write a message, or some other combination of reads and writes. The order of messages in each stream is preserved.
+
+USE POWERSHELL note add mapping/reflection
+add mapping/reflection
+grpcurl localhost:5001 describe
+grpcurl localhost:5001 describe greet.HelloRequest
+grpcurl -d '{ \"name\": \"World\" }' localhost:5001 greet.Greeter/SayHello
