@@ -1,3 +1,7 @@
+//GENERATE SSL CERTIFICATE
+//pass: password1234
+winpty openssl genrsa -des3 -out myCA.key 2048
+
 Docker create image from repo
 docker build -t image-name /path/to/repo
  
